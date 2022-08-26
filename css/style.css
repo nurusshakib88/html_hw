@@ -100,7 +100,7 @@ header {
 
 .skill-name{
 	font-weight: 600;
-  margin: 6px 0;
+  margin: 9px 0 5px;
 }
 
 .skill-bar{
@@ -182,27 +182,6 @@ header {
 	box-shadow: 5px 5px 9px -2px rgba(0,0,0,0.4);
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*contact page*/
 .c_form {
