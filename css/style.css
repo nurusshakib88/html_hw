@@ -1,0 +1,268 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header start*/
+header {
+    position: fixed;
+    padding: 10px 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #294361;
+    box-shadow: 2px 2 px 10px;
+    z-index: 999;
+}
+.container {
+	overflow: hidden;
+	width: 80%;
+	margin: 0 auto;
+}
+.logo {
+	float: left;
+	width: 18%;
+}
+.logo img {
+	padding-top: 3px;
+    width: 80%;
+}
+.menu {
+	float: right;
+	width: 79%;
+}
+.menu ul {
+	float: right;
+}
+.menu ul li {
+	float: left;
+	list-style: none;
+}
+.menu ul li a {
+	margin-right: 40px;
+	font-size: 18px;
+	font-family: sans-serif;
+	text-decoration: none;
+	color: #fff;
+	font-weight: 600;
+	transition: .3s;
+}
+.menu ul li a:hover {
+	color: #E78839;
+}
+.menu ul li:last-child a {
+	margin-right: 0;
+}
+/* header end*/
+
+
+.about, .contact_me {
+	margin-top: 80px;
+}
+.heading {
+	margin-bottom: 50px;
+	font-size: 35px;
+	font-family: sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.about_img {
+	float: left;
+	width: 38%;
+	margin-right: 2%;
+}
+.about_img  img {
+	width: 100%;
+	/*width: 340px;*/
+	/*height: 340px;*/
+	box-shadow: 5px 5px 9px -2px rgba(0,0,0,0.4);
+	margin: 0 8px 8px 0;
+	border-radius: 10px;
+	/*border-radius: 50%;*/
+
+}
+.about_text {
+	float: right;
+	width: 58%;
+	margin-left: 2%;
+}
+.about_text p {
+	line-height: 25px;
+}
+
+/*bar*/
+.skill{
+  width: 60%;
+}
+
+.skill-name{
+	font-weight: 600;
+  margin: 6px 0;
+}
+
+.skill-bar{
+  height: 14px;
+  background: #294361;
+  border-radius: 3px;
+}
+
+.skill-per{
+  height: 14px;
+  background: #E78839;
+  border-radius: 3px;
+  position: relative;
+  animation: fillBars 2.5s 1;
+}
+
+
+@keyframes fillBars{
+  from{
+    width: 0;
+  }
+  to{
+    width: 100%;
+  }
+}
+
+/**/
+
+
+/*education*/
+
+.education, .project {
+	margin-top: 80px;
+}
+.t_education {
+  width: 100%;
+  border: 2px solid;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.t_education td {
+  border: 2px solid;
+  padding: 3px;
+}
+
+.t_education th {
+	padding: 10px 0;
+	color: white;
+	background-color: #294361;
+}
+
+/*projects*/
+.all_project {
+	overflow: hidden;
+	padding: 8px;
+	text-align: center;
+}
+.project p {
+	text-align: center;
+	margin-bottom: 50px;
+}
+.s_project {
+	float: left;
+	width: 23%;
+	margin-right: 2.6%;
+}
+.s_project img {
+	width: 100%;
+	box-shadow: 5px 5px 9px -2px rgba(0,0,0,0);
+	transition: .3s;
+	border-radius: 7px;
+}
+
+.s_project:last-child {
+	margin-right: 0;
+}
+.s_project img:hover {
+	box-shadow: 5px 5px 9px -2px rgba(0,0,0,0.4);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*contact page*/
+.c_form {
+	width: 60%;
+	margin: 20px auto;
+	display: block;
+	padding: 40px 20px 20px;
+	border-radius: 10px;
+	box-shadow: 3px 3px 10px 2px rgba(0,0,0,0.4);
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.send {
+  background-color: #294361;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.send:hover {
+  background-color: #E78839;
+}
+
+
+/*footer*/
+footer {
+	margin-top: 50px;
+	background-color: #294361;
+}
+
+.f_menu ul {
+	text-align: center;
+}
+.f_menu ul li {
+	display: inline;
+}
+.f_menu ul li a {
+	margin-right: 20px;
+	font-size: 22px;
+	text-decoration: none;
+	color: #fff;
+	transition: .3s;
+}
+.f_menu ul li a:hover {
+	color: #E78839;
+}
+.f_menu ul li:last-child a {
+	margin-right: 0;
+}
+
